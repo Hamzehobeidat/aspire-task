@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+header {
+  background-color: blue;
+  height: 10vh;
+}
+main {
+  height: 70vh;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: gray;
+  height: 20vh;
+}
+
+.in {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #000;
+}
+.inputpass {
+  padding: 10px;
+  width: 300px;
+}
+
+.inputname {
+  margin-bottom: 15px;
+}
+
+.sub {
+  background-color: red;
+  float: right;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <div class="login">
+            <form action="/action_page.php">
+                
+                <input type="text" id="UserName"  placeholder="Username" class="inputname in"><br>
+                
+                <input type="text" id="Passwoard"  placeholder="Password" class="inputpass in"><br><br>
+                <input type="submit" value="login" class="sub">
+            </form> 
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
